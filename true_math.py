@@ -5,8 +5,8 @@ def divide(first, second):
     else:
         return inf
 
-
-divide(1, 1)
+if __name__ == '__main__':
+    print(divide(1, 1))
 
 
 
