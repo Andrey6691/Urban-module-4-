@@ -4,5 +4,5 @@ def divide(first, second):
     else:
         return 'Ошибка'
 
-
-divide(1,0)
+if __name__ == '__main__':
+    print(divide(1,0))
